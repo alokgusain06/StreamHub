@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamHub - "Live Streaming Made Simple"</title>
+</head>
+<body>
+  <div class="background-container">
+    <h1>StreamHub</h1>
+    <p>"Live Streaming Made Simple"</p>
+    <div>
+      <video id="user-video" autoplay muted></video>
+      <button id="start-btn">Start</button>
+      <button id="exit-btn">Exit</button>
+    </div>
+    <div id="clock"></div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
